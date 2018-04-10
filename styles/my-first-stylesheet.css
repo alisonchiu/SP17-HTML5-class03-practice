@@ -5,6 +5,14 @@ img {
   width: 25%
 }
 
+.article {
+  padding: 2rem;
+  background-color: green;
+  text-align: center;
+  width: 60%;
+
+}
+
 .amendment-title {
   color: green;
   text-align: center;
@@ -13,6 +21,7 @@ img {
 
 .amendment-title:hover {
   color: rgba(92, 213, 235, 0.4);
+
 }
 
 .amendment-title::first-letter {
@@ -24,12 +33,16 @@ img {
 }
 
 .document-history {
-  background-color: yellow;
+  background-color: #f8f8f8f8;
+  height: 4rem;
+  width: 40%;
+  text-align: center;
 }
 
 /* nested selector -- selects <p> inside .document-history */
 .document-history p {
-  width: 50%;
+/*  width: 50%;*/
+  font-family: "Arial", sans-serif;
 }
 
 .document-history h4 {
